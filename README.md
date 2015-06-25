@@ -1,0 +1,2 @@
+# linearicons
+Linearicons for Meteor
