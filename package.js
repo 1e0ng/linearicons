@@ -23,7 +23,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
+  api.use(['tinytest', 'http'], 'client');
   api.use('lsun:linearicons', 'client');
   api.addFiles('linearicons-tests.js', 'client');
 });
