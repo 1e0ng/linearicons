@@ -1,6 +1,6 @@
 Package.describe({
   name: 'lsun:linearicons',
-  version: '1.0.0',
+  version: '1.0.0_1',
   // Brief, one-line summary of the package.
   summary: 'Meteor port of Linearicons',
   // URL to the Git repository containing the source code for this package.
@@ -17,7 +17,6 @@ Package.onUse(function(api) {
     'Linearicons-Free-v1.0.0/fonts/Linearicons-Free.svg',
     'Linearicons-Free-v1.0.0/fonts/Linearicons-Free.ttf',
     'Linearicons-Free-v1.0.0/fonts/Linearicons-Free.woff',
-    'Linearicons-Free-v1.0.0/fonts/Linearicons-Free.woff2',
     'Linearicons-Free-v1.0.0/style.css',
   ], 'client');
 });

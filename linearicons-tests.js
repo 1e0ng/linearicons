@@ -5,7 +5,7 @@ var packagePath = '/packages/' + packageName.replace(':', '_');
 
 // Check that the font files are downloadable. Meteor places assets at /packages/<packageName>/.
 // Only the 'woff' and 'woff2' files will be used in modern browsers
-['eot', 'svg', 'ttf', 'woff', 'woff2', 'notexist'].forEach(function (font) {
+['eot', 'svg', 'ttf', 'woff', 'notexist'].forEach(function (font) {
   Tinytest.addAsync('Test format ' + font, function (test, done) {
 
     HTTP.get(
